@@ -1,0 +1,10 @@
+font1 = {'family':'serif','color':'blue','size':20}
+font2 = {'family':'serif','color':'darkred','size':15}
+
+plt.title("Sports Watch Data", fontdict = font1)
+plt.xlabel("Average Pulse", fontdict = font2)
+plt.ylabel("Calorie Burnage", fontdict = font2)
+
+You can use the loc parameter in title() to position the title.
+
+Legal values are: 'left', 'right', and 'center'. Default value is 'center'.

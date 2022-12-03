@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<head>
+    <title>
+
+    </title>
+
+<style>
+    .city{
+            border: 2px solid rgb(1, 21, 23);
+            padding: 30px;
+            background-image: url('img.png');
+    }
+    a:link {
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    table, th, td {
+       border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    th, td {
+  background-color: #f87e63;
+  /* border-color: #810623; */
+    }
+
+    th {
+  text-align: right;
+}
+    </style>
+
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css"> -->
+</head>
+<html>
+<body style="background-color:powderblue;">
+
+<nav>
+    <a href="#navbar">HTML</a> |
+    <a href="/css/">CSS</a> |
+    <a href="/js/">JavaScript</a> |
+    <a href="/jquery/">jQuery</a>
+</nav>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3 style="border:2px solid Violet;">Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+<p>My first paragraph.</p>
+<hr>
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+
+<p>This is<br>a paragraph<br>with line breaks.</p>
+<pre>
+    My Bonnie lies over the ocean.
+  
+    My Bonnie lies over the sea.
+  
+    My Bonnie lies over the ocean.
+  
+    Oh, bring back my Bonnie to me.
+</pre>
+
+<h1 style="background-color:rgb(41, 165, 50); font-family:verdana; text-align:center;">This is a heading</h1>
+<p style="background-color:tomato; font-family:Courier; font-size:160%;">This is a paragraph. use mark to highlight del to strikethru and ins to insert underline</p>
+
+<!-- comment  -->
+
+<section id="navbar"> 
+
+<p class="city">The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+<address>
+    Written by John Doe.<br>
+    Visit us at:<br>
+    Example.com<br>
+    Box 564, Disneyland<br>
+    USA
+</address>
+
+<p>Here is a quote from WWF's website:</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+</section>
+
+<figure>
+    <img src="img.png" alt="Girl in a jacket" width="500" height="200" style="float:right">
+    <!-- style="float:right" -->
+    <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
+</figure>
+
+
+<a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML tutorial</a>
+<a href="mailto:someone@example.com">Send email</a>
+<center>
+    <img src="img.png" alt="Girl in a jacket" width="500" height="200">
+</center>
+
+<table>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <hr>
+  <hr>
+  <br>
+  <br>
+
+
+  <table style="width:100%">
+    <tr>
+      <th style="width:70%">Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+  </table>
+
+  <br>
+  <br>
+  <hr>
+  <hr>
+  <br>
+  <br>
+
+  <table style="width:100%">
+    <caption>Monthly savings</caption>
+    <tr>
+      <th><del><ins> Row heading </ins></del></th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr style="height:200px">
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+
+  </table>
+  
+  <br>
+  <br>
+  <hr>
+  <hr>
+  <br>
+  <br>
+
+  <table>
+    <tr>
+      <th colspan="2">Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+  </table>
+
+  <ul style="list-style-type:square;">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+  <!-- style tips disc circle sqaure none -->
+  <ol type="1">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+  <!-- 1 i A a I -->
+
+  <!-- Use div and span -->
+
+  <form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+  </form>
+
+  <p>Choose your favorite Web language:</p>
+
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form>
+
+<form>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label>
+  </form>
+
+  <input type="submit" value="Submit">
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <td>Jill</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Phone</th>
+      <td>555-1234</td>
+    </tr>
+    <tr>
+      <td>555-8745</td>
+  </tr>
+  </table>
+</body>
+</html>

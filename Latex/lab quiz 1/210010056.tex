@@ -1,0 +1,105 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{blindtext}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{xcolor}
+\graphicspath{ {./} }
+\usepackage{mathtools}
+
+\pagecolor{cyan}
+\begin{document}
+
+\title{\colorbox{yellow}{\textbf{\textcolor{red}{\LaTeX{} Lab Quiz}}}}
+\author{Tamal Das}
+\date{\today}
+
+\maketitle
+
+
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+\section{Figures} \label{figures}
+
+
+  \begin{center}
+    \includegraphics{iitdhlogo}
+  \end{center}
+
+
+\section{Tables}
+
+\begin{table}[h!]
+\centering
+Table 1 displays the marking scheme of this course.
+\begin{tabular}{||c| c| c| c||}
+\hline
+Mid-sem & End-sem & Lab quizzes & Project \\ 
+\hline
+15 & 15 & 50 & 20 \\
+\hline
+\end{tabular}
+\caption{Marking scheme}
+\label{table:1}
+\end{table}
+
+
+\section{Mathematics}
+Einstein’s famous equation is $ E = mc^2 $, which can also be expressed as
+\begin{equation} \label{eq1}
+\begin{split}
+E & = mc^2 \\
+& = (\sqrt{m}c)^2\\
+& = \left( \sum_{i=1}^{1} \frac{(m^{i/2})}{i/c} \right)^2
+\end{split}
+\end{equation}
+
+
+
+\section{Section}
+\subsection{Sub-section}
+\blindtext
+\subsubsection{Sub-sub-section}
+\blindtext
+
+\section{Lists}
+The evaluation components of this course includes:
+
+\begin{itemize}
+\item Mid-sem
+\item End-sem
+\item Lab quizzes
+\item Project
+\end{itemize}
+
+The top three most spoken languages in the world are as follows.
+
+\begin{enumerate}
+\item English
+\item Mandarin
+\item Hindi
+\end{enumerate}
+
+\section{Bibliography}
+Naning et al. \cite{7811452} investigate the SDN controller placement design for large scale production network.
+
+Fan et al. \cite{fan2020controller} explore controller placements for improving flow set-up reliability of software-defined networks.
+
+Galuba et al. \cite{galuba2010outtweeting} discuss about out-tweeting the Twitterers — Predicting Information Cascades in Microblogs
+
+
+\section{Cross-referencing}
+\ref{figures}
+
+\bibliographystyle{plain} 
+\bibliography{testBibTexFile}
+
+\end{document}

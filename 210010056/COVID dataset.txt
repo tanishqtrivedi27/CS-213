@@ -1,0 +1,35 @@
+Madhya Pradesh,22812,88168,2077
+Mizoram,618,1095,0
+Bihar,12958,159022,874
+Meghalaya,2060,2859,42
+Rajasthan,18992,100365,1382
+Uttar Pradesh,61698,302689,5299
+Himachal Pradesh,3950,8959,140
+Gujarat,16438,107574,3367
+Jharkhand,12882,61559,648
+West Bengal,25101,205028,4544
+Nagaland,1119,4536,16
+Manipur,2206,7108,62
+Chhattisgarh,35850,56773,728
+Punjab,21230,79244,2990
+Sikkim,575,2023,30
+Uttarakhand,11867,31324,529
+Kerala,42858,104682,592
+Odisha,34547,157265,736
+Haryana,19276,96347,1233
+Dadra and Nagar Haveli and Daman and Diu,205,2755,2
+Telengana,30037,148139,1070
+Assam,30182,132712,597
+Jammu and Kashmir,19918,46530,1062
+Arunachal Pradesh,2216,5903,14
+Tripura,6551,16978,260
+Tamil Nadu,46249,502740,9010
+Karnataka,94671,437910,8266
+Andaman and Nicobar Islands,166,3494,52
+Chandigarh,2537,8049,140
+Maharashtra,273883,956030,33886
+Andhra Pradesh,70357,570667,5506
+Ladakh,1038,2844,51
+Delhi,30836,220866,5087
+Puducherry,4853,18893,481
+Goa,5646,23857,376

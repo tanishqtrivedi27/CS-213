@@ -1,0 +1,132 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{blindtext}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{xcolor}
+\graphicspath{ {./} }
+\usepackage{mathtools}
+\begin{document}
+
+\title{Introduction to \LaTeX{}}
+\author{Tanishq Trivedi}
+\date{\today}
+
+\maketitle
+
+\section{LAB 1}
+The solutions to lab assignment 1
+
+$$ 
+C(n,r) = n!/r!(n-r)! 
+$$
+
+The following is in-line $ a + b = c - d = xy = w/z $ and following is displayed mathematical text 
+$$
+    a + b = c - d = xy = w/z
+$$
+
+\begin{equation}
+    \label{simple equation}
+    \alpha\beta = \gamma + \delta\textbf{}
+\end{equation}
+
+\begin{equation}
+    \label{simple equation}
+    \Gamma(n) = (n-1)!
+\end{equation}
+
+
+If $ Y_{rc} , r = 1,...,R,c = 1,...,C $ are random variables, show that
+
+
+\section{Lists}
+Here is the ...
+\begin{enumerate}
+    \item You can mix list environments as much as you like 
+    \begin{itemize}
+        \item But it might start to look silly
+        \item [--] With different symbols
+    \end{itemize}
+    
+    \item So do remember 
+    \begin{description}
+        \item \textbf{Stupid} things will not become smart because they are in a list
+        \item \textbf{Smart} things, though, can be presented beautifully in a list 
+    \end{description}
+\end{enumerate}
+
+\section{Mathematical symbols}
+
+$$
+\textrm {What are the points where }  \tfrac{\delta}{\delta x} f(x, y) = \tfrac{\delta}{\delta y} f(x, y) = 0 ? 
+$$
+
+$$
+\nabla^{2}f(x, y) = \tfrac{\delta^{2}f}{\delta^{2}x} + \tfrac{\delta^{2}f}{\delta^{2}y}
+$$
+
+This is a matrix
+\[
+\begin{bmatrix}
+aa & \cdots & az\\
+\vdots & \ddots & \vdots\\
+za & \cdots & zz
+\end{bmatrix}
+\]
+
+\section{Other mathematical symbols}
+
+\[ 
+\int csc^{2}x \,dx = -cot x + C \hspace{2cm}
+\lim_{\alpha\to 0} \tfrac{sin \alpha}{\alpha} = 1
+\]
+\[
+h_i(t) = \lim_{\epsilon\to 0} \tfrac{1}{\epsilon}\tfrac{P(t<T_i\le t+\epsilon)}{P(T_i>t)}
+\]
+
+\section{Question 37}
+The universe is immense and it seems to be homogeneous, 
+in a large scale, everywhere we look at. \\
+\includegraphics[width=\textwidth]{img-1}
+There's a picture of a galaxy above
+
+This example shows some instances of using the \texttt{xcolor} package 
+to change the colour of elements in \LaTeX.
+
+\begin{itemize}
+\color{blue}
+\item First item
+\item Second item
+\end{itemize}
+
+\noindent
+{\color{red} \rule{\linewidth}{0.5mm}}
+\begin{itemize}
+\color{ForestGreen}
+\item First item
+\item Second item
+\end{itemize}
+
+\noindent
+{\color{RubineRed} \rule{\linewidth}{0.5mm}}
+
+The background colour of text can also be \textcolor{red}{easily} set. For 
+instance, you can change use an \colorbox{BurntOrange}{orange background} and then continue typing.
+
+\LaTeX{} \cite{lamport94} is a set of macros built atop \TeX{} \cite{texbook}.
+
+\begin{thebibliography}{9}
+\bibitem{texbook}
+Donald E. Knuth (1986) \emph{The \TeX{} Book}, Addison-Wesley Professional.
+
+\bibitem{lamport94}
+Leslie Lamport (1994) \emph{\LaTeX: a document preparation system}, Addison
+Wesley, Massachusetts, 2nd ed.
+\end{thebibliography}
+
+\end{document}
